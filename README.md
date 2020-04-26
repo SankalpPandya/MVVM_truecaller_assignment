@@ -1,6 +1,13 @@
 
 # TrueCallerAssesment_Project
 
+ Technology/Topics utilized----------------------------------------------------------------------------
+
+1. MVVM
+2. Retofit
+3. Gson
+4. RxJava
+
  Application Architecture-----------------------------------------------------------------------------------------------------------
 
 - This application architecture follows the MVVM architecture , which provides reactive , lifecycle aware and smooth implementation flow.
@@ -29,9 +36,5 @@ Current Output for given url :--------------------------------------------------
 --> For all these business logic , the helper classes are created and they follow singleton pattern. Hence, multiple object creation can be avoided for any number of requests.
 --> Here using hashmap servs the purpose by helping us to avoid any logic for duplicate words, as we can add words as key and we would get all distinct words in the keys().
 
-Assumption:
-
--> Ideally as the URL for all  request was same , we can get the above output through only request. However, as it was mentioned in instruction to perticularly follow 
-   3 seperate request I have implemented the same.
-
 -> Currently , the layout is only designed for Portrait mode due to limited time.Hence , perticular orientation mode is request in manifest itself !
+
