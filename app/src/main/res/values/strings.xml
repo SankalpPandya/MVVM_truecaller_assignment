@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">True Caller Assignment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_assignment_button">Trigger Requests</string>
+    <string name="text_view_10th_character">True Caller 10th Character</string>
+    <string name="text_view_every_10th_character">True Caller Every 10th Character</string>
+    <string name="text_view_words_count">True Caller Word Count</string>
+</resources>

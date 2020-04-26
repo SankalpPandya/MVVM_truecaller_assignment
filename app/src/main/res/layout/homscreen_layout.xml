@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/textView"
+            android:background="@null"
+            android:editable="false"
+            android:cursorVisible="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_view_10th_character"
+            android:textAppearance="@android:style/TextAppearance.Material.Headline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+            <EditText
+                android:id="@+id/textView1"
+                android:background="@null"
+                android:editable="false"
+                android:cursorVisible="false"
+                tools:text="10th Character"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView"/>
+
+
+        <TextView
+            android:id="@+id/headline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/text_view_every_10th_character"
+            android:textAppearance="@android:style/TextAppearance.Material.Headline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scrollView1" />
+
+
+
+            <EditText
+                android:id="@+id/textView2"
+                android:background="@null"
+                android:editable="false"
+                android:cursorVisible="false"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                tools:text="Every 10th Character"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/headline2"/>
+
+
+        <TextView
+            android:id="@+id/headline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/text_view_words_count"
+            android:textAppearance="@android:style/TextAppearance.Material.Headline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+            <EditText
+                android:id="@+id/textView3"
+                android:background="@null"
+                android:editable="false"
+                android:cursorVisible="false"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="24dp"
+                android:layout_weight="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/headline3"
+                app:layout_constraintBottom_toTopOf="@+id/fetch_data"
+                tools:text="Words Counter"
+                app:layout_constraintVertical_bias="0.0"
+                android:layout_width="match_parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/fetch_data"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/action_assignment_button"
+            app:backgroundTint="@color/style_color_primary"
+            app:backgroundTintMode="@color/style_color_primary"
+            app:layout_constraintTop_toBottomOf="@id/textView3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
