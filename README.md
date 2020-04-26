@@ -38,3 +38,4 @@ Current Output for given url :--------------------------------------------------
 
 -> Currently , the layout is only designed for Portrait mode due to limited time.Hence , perticular orientation mode is request in manifest itself !
 
+![](/assignment.gif)
