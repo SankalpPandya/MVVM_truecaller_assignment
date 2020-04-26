@@ -1,5 +1,5 @@
 
-# TrueCallerAssesment_Project_Sankalp_Pandya
+# TrueCallerAssesment_Project
 
  Application Architecture-----------------------------------------------------------------------------------------------------------
 
